@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home - Saturn GeekCity</title>
+    <link rel="icon" type="image" href="../img/logosaturn.png">
+
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+
+            <div class="menuParte1">
+                <img src="../img/saturns_logo - Copia.png" width="185px">
+
+                <div id="divBusca">
+                    <input type="text" id="txtBusca" placeholder="Buscar...">
+                </div>
+
+                <img src="../img/helpsaturn.png" width="85px">
+                <img src="../img/wishlist.png" width="90px">
+
+                <div id="divCaixaLogin">
+                    <a href="../html/login.html">
+                        <img src="../img/login icone.png" alt="iconelogin" width="32px" height="38px">
+                        <h4>Login</h4>
+                    </a>
+
+                </div>
+                <img src="../img/Sem título.png" width="85px">
+            </div>
+
+            <!-- menu pare 2 com as categorias -->
+            <div class="menuParte2">
+                <div class="divCategorias">
+                    <ul>
+                        <li><a href="../html/categ-roupas.html">Roupas</a></li>
+                        <li><a href="../html/categ-games.html">Games</a></li>
+                        <li><a href="../html/categ-livroshq.html">Livros e HQ's</a></li>
+                        <li><a href="../html/categ-decor.html">Decoração</a></li>
+                        <li><a href="../html/categ-acess.html">Acessorios</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+
+    </header>
+
+    <div class="centro">
+        <>AAAAAAA</>
+
+    </div>
+
+    <footer>
+        <!-- sobre nós -->
+        <div id="sobrenos">
+            <h2>Sobre Nós</h2>
+
+            <h3>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Iusto nulla deserunt id.<br> Dolores
+                dignissimos nisi ipsum facere. <br>
+                Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Iusto nulla
+                deserunt id.<br> Dolores
+                dignissimos
+                nisi ipsum facere.</h3>
+
+        </div>
+
+        <!-- desenvolvedores do site -->
+        <div id="devs">
+            <h2>Desenvolvedores</h2>
+
+            <div id="caixaDevsPhotos">
+                <div class="devsimg">
+                    <img src="https://fastly.picsum.photos/id/76/4912/3264.jpg?hmac=VkFcSa2Rbv0R0ndYnz_FAmw02ON1pPVjuF_iVKbiiV8"
+                        width="170" height="170">
+                </div>
+
+                <div class="devsimg">
+                    <img src="https://fastly.picsum.photos/id/76/4912/3264.jpg?hmac=VkFcSa2Rbv0R0ndYnz_FAmw02ON1pPVjuF_iVKbiiV8"
+                        width="170" height="170">
+                </div>
+            </div>
+
+        </div>
+
+        <!-- formulario para contato-->
+        <div class="contatofeedback">
+
+            <h2>Contate-nos</h2>
+
+            <form action="#" method="POST">
+
+                <div class="footerForm">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="footerForm">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <!-- caixa de mensagem para feedback -->
+                <div class="footerCaixaeBotao">
+                    <div class="footerForm">
+                        <label for="message">Feedback:</label>
+                        <textarea id="message" name="message" rows="2" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">
+                        <img src="../img/seta azul.png" alt="Enviar">
+                    </button>
+                </div>
+
+
+            </form>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
+
+
+
+
+
+ <video width="320" height="240" controls>
+       <source src="caminho para o video/movie.mp4" type="video/mp4">
+   </video>

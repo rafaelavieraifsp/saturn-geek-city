@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta none="viewport" content="width-device-width, initial-scale=1.0" />
+    <title>Livros/Hq - Saturn GeekCity</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script src="../javascript/script.js" defer></script>
+
+
+</head>
+
+<body onload="iniciarslider()">
+    <header>
+        <div class="menu">
+
+            <div class="menuParte1">
+                <a href="../index.html">  <img src="../img/saturns_logo - Copia.png" class="logomenu" width="185px"></a>
+
+                <div id="divBusca">
+                    <input type="text" id="txtBusca" placeholder="Buscar...">
+                </div>
+
+                <img src="../img/helpsaturn.png" width="85px">
+                <img src="../img/wishlist.png" width="90px">
+
+                <div id="divCaixaLogin">
+                    <a href="../html/login.html">
+                        <img src="../img/login icone.png" alt="iconelogin" width="32px" height="38px">
+                        <h4>Login</h4>
+                    </a>
+
+                </div>
+                <img src="../img/Sem título.png" width="85px">
+            </div>
+
+            <!-- menu pare 2 com as categorias -->
+            <div class="menuParte2">
+                <div class="divCategorias">
+                    <ul>
+
+                        <li><a href="../html/categ-games.html">Games</a></li>
+                        <li><a href="../html/categ-livroshq.html">Livros e HQ's</a></li>
+                        <li><a href="../html/categ-decor.html">Decoração</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+
+    </header>
+
+
+    <div class="centro">
+
+        <!-- Produtos em Destaque -->
+        <div class="loja-menu">
+            <h1>One Piece v50</h1>
+            <div class="gridshop">
+
+                <div class="container-slider">
+                    <button id="prev-button" class="butao"><img src="../img/arrow-esq.png" alt="prev-button"></button>
+                    <div class="container-images">
+                        <img src="../img/one piece.png" style=" width: 100%;" alt="pg1" class="slider">
+
+                        <img src="https://m.media-amazon.com/images/I/61Zd7XJ0omL._SX342_BO1,204,203,200_.jpg"
+                            style=" width: 80%;" alt="pg1" class="slider">
+
+                    </div>
+                    <button id="next-button" class="butao"><img src="../img/arrrow-dir.png" alt="next-button"></button>
+                </div>
+
+
+
+            </div>
+
+            <div class="name-price-buy">
+                <h1 width 100px>Livro/Hq</h1>
+
+                <div class="price">
+                    <div>
+                        <h1>R$: 55,00</h1>
+                    </div>
+
+                </div>
+                <div class="botao-buy">
+                    <a href="../html/pagamento.html" class="btn-comprar">
+                        Comprar
+                    </a>
+                </div>
+            </div>
+
+
+
+
+            <div class="titulo-prod">
+                <h3 style="font-size: 20px;margin: 0px;">Descrição</h3>
+
+                <div class="caixa-com-scroll">
+                    <p style="font-size: 25px;">Chico Bento cresceu e agora se prepara para deixar a Vila Abobrinha para
+                        fazer faculdade de Agronomia em outra cidade. Então, ele decide visitar lugares e pessoas para
+                        se despedir, enquanto se prepara para viver uma grande aventura!
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <footer>
+        <!-- sobre nós -->
+        <div id="sobrenos">
+            <h2>Sobre Nós</h2>
+            <div class="caixa-com-scroll">
+            <h3>Bem vindo(a) a Saturn GeekCity, à nossa loja virtual geek! Nós amamos tudo relacionado a cultura nerd e
+                geek e queremos compartilhar isso com você.Todos os nossos produtos são cuidadosamente selecionados para
+                garantir a qualidade e a autenticidade. Nossa equipe é formada por geeks apaixonados que estão sempre em
+                busca das últimas novidades do mundo geek. Esperamos que você encontre algo que ame em nossa loja!
+                dignissimos
+            </h3></div>
+        </div>
+
+        <!-- desenvolvedores do site -->
+        <div id="devs">
+            <h2>Desenvolvedores</h2>
+
+            <div id="caixaDevsPhotos">
+                <div class="devsimg">
+                    <img src="../img/mathues.jpg"
+                        width="170" height="170">
+                </div>
+
+                <div class="devsimg">
+                    <img src="../img/rafa foto.jpeg"
+                        width="170" height="170">
+                </div>
+            </div>
+
+        </div>
+
+        <!-- formulario para contato-->
+        <div id="contatofeedback">
+
+            <h2>Contate-nos</h2>
+
+            <form action="#" method="POST">
+
+                <div class="footerForm">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="footerForm">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <!-- caixa de mensagem para feedback -->
+                <div class="footerForm">
+                    <label for="message">Feedback:</label>
+                    <textarea id="message" name="message" rows="2" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">
+                    <img src="../img/config.png" alt="Enviar">
+                </button>
+
+            </form>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
